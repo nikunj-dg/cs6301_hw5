@@ -217,7 +217,7 @@ def grasp(gripper, group, scene, object_name, RT_grasp):
     (plan_standoff, fraction) = group.compute_cartesian_path(
                                    waypoints,   # waypoints to follow
                                    0.01,        # eef_step
-                                   0.0)         # jump_threshold
+                                   True)         # jump_threshold
     trajectory = plan_standoff
     
     input('execute?')    
