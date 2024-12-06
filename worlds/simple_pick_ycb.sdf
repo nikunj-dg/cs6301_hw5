@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <world name="default">
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <include>
+      <uri>model://cafe_table</uri>
+      <name>table1</name>
+      <pose>1.0 0 -0.08 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://003_cracker_box</uri>
+      <name>003_cracker_box</name>
+      <pose>0.7 0.2 0.8 0 0 1.0</pose>
+    </include>
+  </world>
+</sdf>
